@@ -31,7 +31,7 @@ Signing XML with an XML Digital Signature without introducing obscure security h
 to the simplicity of signing a JSON.
 
 ```
-![]((images/jwt.png)
+![](images/jwt.png)
 
 
 ### Validating and Verifying a JWT![]((images/jwt.png)
