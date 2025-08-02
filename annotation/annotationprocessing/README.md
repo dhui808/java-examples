@@ -34,6 +34,11 @@ Define the Annotation Interface.
 components marked with AspectJ's @Aspect annotation — it tells Spring to create 
 proxies for beans where aspects (like logging, transactions, etc.) should be applied.
 
+Spring AOP defaults to using standard JDK dynamic proxies for AOP proxies. This enables any interface (or set
+of interfaces) to be proxied.
+Spring AOP can also use CGLIB proxies. This is necessary to proxy classes rather than interfaces. CGLIB is used
+by default if a business object does not implement an interface.
+
 LogExecutionTime defines an annotation
 LogExecutionAspect is annotated with @Aspect
 Annotate methods with @LogExecutionTime
