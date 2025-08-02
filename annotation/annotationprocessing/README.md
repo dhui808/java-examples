@@ -24,7 +24,8 @@ Define the Annotation Interface.
 
             Advice declarations ("What to do?": Defines the action to be taken at those join points):
             These define the actions to be taken at the specified join points (e.g., @Before, @After, @Around,
-            @AfterReturning, @AfterThrowing).
+            @AfterReturning, @AfterThrowing. Thease are called Types of advice).
+            Advice is associated with a pointcut expression.
     
     In essence, @Aspect tells Spring, "This class contains AOP logic, and you should use it to intercept and
     modify the behavior of other parts of my application based on the defined pointcuts and advice."
