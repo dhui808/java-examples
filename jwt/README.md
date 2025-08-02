@@ -30,6 +30,9 @@ Both JWT and SAML tokens can use a public/private key pair in the form of an X.5
 Signing XML with an XML Digital Signature without introducing obscure security holes is very difficult compared
 to the simplicity of signing a JSON.
 
+![]((images/jwt.png)
+
+
 ```
 
 ### Validating and Verifying a JWT
